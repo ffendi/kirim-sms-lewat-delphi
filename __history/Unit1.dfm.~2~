@@ -1,0 +1,118 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 232
+  ClientWidth = 518
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 137
+    Top = 78
+    Width = 37
+    Height = 13
+    Caption = 'ISI SMS'
+  end
+  object Label2: TLabel
+    Left = 137
+    Top = 109
+    Width = 57
+    Height = 13
+    Caption = 'NO TUJUAN'
+  end
+  object Label3: TLabel
+    Left = 137
+    Top = 35
+    Width = 39
+    Height = 13
+    Caption = 'JUMLAH'
+  end
+  object Edit1: TEdit
+    Left = 200
+    Top = 75
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 200
+    Top = 106
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 352
+    Top = 73
+    Width = 75
+    Height = 25
+    Caption = 'SET MODEM'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 352
+    Top = 104
+    Width = 75
+    Height = 25
+    Caption = 'OPEN'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 352
+    Top = 135
+    Width = 75
+    Height = 25
+    Caption = 'KIRIM'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Edit3: TEdit
+    Left = 200
+    Top = 32
+    Width = 81
+    Height = 21
+    TabOrder = 5
+  end
+  object CheckBox1: TCheckBox
+    Left = 200
+    Top = 139
+    Width = 97
+    Height = 17
+    Caption = 'Kirim selalu'
+    TabOrder = 6
+    OnClick = CheckBox1Click
+  end
+  object ComPort1: TComPort
+    BaudRate = br9600
+    Port = 'COM1'
+    Parity.Bits = prNone
+    StopBits = sbOneStopBit
+    DataBits = dbEight
+    Events = [evRxChar, evTxEmpty, evRxFlag, evRing, evBreak, evCTS, evDSR, evError, evRLSD, evRx80Full]
+    FlowControl.OutCTSFlow = False
+    FlowControl.OutDSRFlow = False
+    FlowControl.ControlDTR = dtrDisable
+    FlowControl.ControlRTS = rtsDisable
+    FlowControl.XonXoffOut = False
+    FlowControl.XonXoffIn = False
+    StoredProps = [spBasic]
+    TriggersOnRxChar = True
+    Left = 128
+    Top = 144
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 104
+    Top = 144
+  end
+end

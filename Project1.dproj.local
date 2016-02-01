@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/23 13:00:04.000.259,=C:\Users\AREK\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/23 13:50:16.000.940,=C:\Users\AREK\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/01 02:34:19.000.840,=C:\Users\AREK\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/01 02:38:32.000.506,=C:\Users\AREK\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/07 14:43:33.000.983,=C:\Users\AREK\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/07 16:54:02.000.618,=C:\Users\AREK\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/07 17:35:52.000.073,D:\delphi\test\Unit1.pas=C:\Users\AREK\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/07 17:35:52.000.073,D:\delphi\test\Unit1.dfm=C:\Users\AREK\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/10/07 17:35:53.000.214,D:\delphi\test\Project1.dproj=C:\Users\AREK\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
